@@ -1,0 +1,58 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 02/12/2020 13:40
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-buddhist-yoga-pose:before { content: "\f100"; }
+.flaticon-bicycle:before { content: "\f101"; }
+.flaticon-boxing-fighter:before { content: "\f102"; }
+.flaticon-yoga-pose:before { content: "\f103"; }
+.flaticon-jump-rope:before { content: "\f104"; }
+.flaticon-exercise:before { content: "\f105"; }
+.flaticon-man-exercising-leg-on-the-flor:before { content: "\f106"; }
+.flaticon-weightlifting:before { content: "\f107"; }
+.flaticon-dumbell:before { content: "\f108"; }
+    
+    $font-Flaticon-buddhist-yoga-pose: "\f100";
+    $font-Flaticon-bicycle: "\f101";
+    $font-Flaticon-boxing-fighter: "\f102";
+    $font-Flaticon-yoga-pose: "\f103";
+    $font-Flaticon-jump-rope: "\f104";
+    $font-Flaticon-exercise: "\f105";
+    $font-Flaticon-man-exercising-leg-on-the-flor: "\f106";
+    $font-Flaticon-weightlifting: "\f107";
+    $font-Flaticon-dumbell: "\f108";
